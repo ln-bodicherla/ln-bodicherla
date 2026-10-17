@@ -112,7 +112,7 @@ def banner(name):
 
     <g class="fade">
       <text x="{wx + 44}" y="{wy + 76}" class="mono">$ whoami<tspan class="cursor"> ▍</tspan></text>
-      <text x="{wx + 42}" y="{wy + 132}" class="name">Lakshmi Narasaiah Bodicherla</text>
+      <text x="{wx + 42}" y="{wy + 132}" class="name">LN Bodicherla</text>
       <text x="{wx + 44}" y="{wy + 164}" class="role">SENIOR MACHINE LEARNING ENGINEER</text>
       <text x="{wx + 44}" y="{wy + 194}" class="tag">Production document AI, LLM and agent systems. Desktop tools for Linux and macOS on the side.</text>
     {chips(t, wx + 44, wy + 208)}

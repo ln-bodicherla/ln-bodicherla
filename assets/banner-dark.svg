@@ -50,7 +50,7 @@
 
     <g class="fade">
       <text x="108" y="134" class="mono">$ whoami<tspan class="cursor"> ▍</tspan></text>
-      <text x="106" y="190" class="name">Lakshmi Narasaiah Bodicherla</text>
+      <text x="106" y="190" class="name">LN Bodicherla</text>
       <text x="108" y="222" class="role">SENIOR MACHINE LEARNING ENGINEER</text>
       <text x="108" y="252" class="tag">Production document AI, LLM and agent systems. Desktop tools for Linux and macOS on the side.</text>
     <rect x="108" y="266" width="113" height="30" rx="15" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/><text x="164.5" y="285.5" text-anchor="middle" class="chip">Document AI</text>
