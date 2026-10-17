@@ -1,6 +1,11 @@
-## Hi, I'm LN Bodicherla
+<a href="https://lnbodicherla.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img alt="LN Bodicherla, Senior Machine Learning Engineer" src="assets/banner-light.svg" width="100%">
+  </picture>
+</a>
 
-Senior Machine Learning Engineer with 6+ years across data science, machine learning and applied AI. I build production document AI, LLM and agent systems at work, and desktop tools for Linux and macOS on the side.
+Senior Machine Learning Engineer with 6+ years across data science, machine learning and applied AI.
 
 - **Now:** Senior ML Engineer at Quantiphi, building a GCP document AI platform for recorded property records (Document AI, Gemini on Vertex AI, entity resolution, grounded Q&A).
 - **Before:** Forward Deployed Engineer at C3 AI (agentic process optimization for manufacturing), Senior AI/ML Engineer at PwC (fine-tuned LLMs, RAG, multi-agent document workflows), ML Engineer at BCBS (real-time risk scoring, GNNs), Data Scientist at Jotter.ai (computer vision).

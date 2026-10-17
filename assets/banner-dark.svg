@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="LN Bodicherla, Senior Machine Learning Engineer">
+  <title>LN Bodicherla, Senior Machine Learning Engineer</title>
+  <style>
+    .name { font: 700 50px -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #f2f2f2; letter-spacing: -1px; }
+    .role { font: 500 15px -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: rgba(255,255,255,0.58); letter-spacing: 3.2px; }
+    .tag  { font: 400 19px -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: rgba(255,255,255,0.58); }
+    .mono { font: 400 14px 'SF Mono', ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace; fill: rgba(255,255,255,0.36); }
+    .menu { font: 600 13px -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: rgba(255,255,255,0.58); }
+    .chip { font: 500 13px -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: rgba(255,255,255,0.58); }
+    .win  { animation: rise 0.9s cubic-bezier(.2,.9,.3,1.1) both; }
+    .fade { animation: fade 1.2s ease-out 0.35s both; }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    .drift { animation: drift 18s ease-in-out infinite alternate; }
+    @keyframes rise  { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    @keyframes fade  { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+    @keyframes drift { from { transform: translate(-40px, -10px); } to { transform: translate(60px, 20px); } }
+    @media (prefers-reduced-motion: reduce) { .win, .fade, .cursor, .drift { animation: none; } }
+  </style>
+  <defs>
+    <radialGradient id="g1" cx="22%" cy="10%" r="60%"><stop offset="0" stop-color="rgba(255,255,255,0.13)"/><stop offset="1" stop-color="#070707" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx="85%" cy="100%" r="55%"><stop offset="0" stop-color="rgba(255,255,255,0.07)"/><stop offset="1" stop-color="#070707" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity="0.55"/></filter>
+    <clipPath id="round"><rect width="1280" height="340" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1280" height="340" fill="#070707"/>
+    <g class="drift"><rect x="-80" y="-60" width="1440" height="460" fill="url(#g1)"/></g>
+    <rect width="1280" height="340" fill="url(#g2)"/>
+
+    <!-- menu bar -->
+    <rect width="1280" height="30" fill="rgba(255,255,255,0.04)"/>
+    <text x="24" y="20" class="menu">LN</text>
+    <text x="58" y="20" class="menu" style="font-weight:400">Work</text>
+    <text x="107" y="20" class="menu" style="font-weight:400">Projects</text>
+    <text x="184" y="20" class="menu" style="font-weight:400">Open source</text>
+    <text x="281" y="20" class="menu" style="font-weight:400">Contact</text>
+    <text x="1256" y="20" text-anchor="end" class="menu" style="font-weight:400">lnbodicherla.dev</text>
+
+    <!-- window -->
+    <g class="win" filter="url(#shadow)">
+      <rect x="64" y="58" width="1152" height="250" rx="14" fill="#141414" fill-opacity="0.86" stroke="rgba(255,255,255,0.10)"/>
+      <path d="M78 58 h1124 a14 14 0 0 1 14 14 v20 h-1152 v-20 a14 14 0 0 1 14 -14z" fill="#1b1b1b"/>
+      <line x1="64" y1="92" x2="1216" y2="92" stroke="rgba(255,255,255,0.10)"/>
+      <circle cx="86" cy="75" r="6" fill="rgba(255,255,255,0.22)"/>
+      <circle cx="106" cy="75" r="6" fill="rgba(255,255,255,0.22)"/>
+      <circle cx="126" cy="75" r="6" fill="rgba(255,255,255,0.22)"/>
+      <text x="640.0" y="80" text-anchor="middle" class="mono">~ / about</text>
+    </g>
+
+    <g class="fade">
+      <text x="108" y="134" class="mono">$ whoami<tspan class="cursor"> ▍</tspan></text>
+      <text x="106" y="190" class="name">Lakshmi Narasaiah Bodicherla</text>
+      <text x="108" y="222" class="role">SENIOR MACHINE LEARNING ENGINEER</text>
+      <text x="108" y="252" class="tag">Production document AI, LLM and agent systems. Desktop tools for Linux and macOS on the side.</text>
+    <rect x="108" y="266" width="113" height="30" rx="15" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/><text x="164.5" y="285.5" text-anchor="middle" class="chip">Document AI</text>
+    <rect x="231" y="266" width="106" height="30" rx="15" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/><text x="284.0" y="285.5" text-anchor="middle" class="chip">LLMs &amp; RAG</text>
+    <rect x="347" y="266" width="144" height="30" rx="15" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/><text x="419.0" y="285.5" text-anchor="middle" class="chip">AI agents &amp; MCP</text>
+    <rect x="501" y="266" width="68" height="30" rx="15" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/><text x="535.0" y="285.5" text-anchor="middle" class="chip">MLOps</text>
+    <rect x="579" y="266" width="174" height="30" rx="15" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/><text x="666.0" y="285.5" text-anchor="middle" class="chip">Linux &amp; macOS tools</text>
+    <text x="916" y="134" class="mono">now</text>
+    <text x="992" y="134" class="mono" style="fill:rgba(255,255,255,0.58)">Quantiphi</text>
+    <text x="916" y="158" class="mono">before</text>
+    <text x="992" y="158" class="mono" style="fill:rgba(255,255,255,0.58)">C3 AI · PwC · BCBS</text>
+    <text x="916" y="182" class="mono">based</text>
+    <text x="992" y="182" class="mono" style="fill:rgba(255,255,255,0.58)">Redwood City, CA</text>
+    </g>
+  </g>
+</svg>
