@@ -51,7 +51,7 @@ def menu(t):
 
 
 def facts(t, x, y):
-    rows = [("now", "Quantiphi"), ("before", "C3 AI · PwC · BCBS"), ("based", "Redwood City, CA")]
+    rows = [("now", "Quantiphi"), ("before", "C3 AI · PwC · BCBS"), ("based", "Bay Area, CA")]
     out = []
     for i, (k, v) in enumerate(rows):
         yy = y + i * 24
